@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hoverTheme {
+  @apply hover:text-orange-300 transition-colors;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.cartText {
+  @apply text-2xl font-semibold mb-3;
+}
